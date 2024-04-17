@@ -26,10 +26,10 @@ Each task involves querying the SQL database to retrieve specific information an
 
 ### Requirements:
 
-** SQL database management system - PostgreSQL
+* SQL database management system - PostgreSQL
 
-** SQL database client - pgAdmin
+* SQL database client - pgAdmin
 
-** ERD tool for sketching Entity Relationship Diagrams - QuickDBD
+* ERD tool for sketching Entity Relationship Diagrams - QuickDBD
 
 
