@@ -1,31 +1,32 @@
-# sql-challenge
+# sql-database-analysis
 
-Completed the following tasks:
+This project involves analyzing a SQL database by completing the following tasks:
 
-1.Data Modeling
+### Data Modeling:
 
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables
+Inspect the CSV files and sketch an Entity Relationship Diagram (ERD) of the tables.
 
-2.Data Engineering
+### Data Engineering:
 
-Uses the information given to create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
+Create a table schema for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints.
+Import each CSV file into the corresponding SQL table.
 
-Imports each CSV file into the corresponding SQL table.
+### Data Analysis:
 
-3.Data Analysis
-
-List the following details of each employee: employee number, last name, first name, gender, and salary.
-
+List details of each employee, including employee number, last name, first name, gender, and salary.
 List employees who were hired in 1986.
-
-List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-
-List the department of each employee with the following information: employee number, last name, first name, and department name.
-
+List the manager of each department, including department number, department name, manager's employee number, last name, first name, and start and end employment dates.
+List the department of each employee, including employee number, last name, first name, and department name.
 List all employees whose first name is "Hercules" and last names begin with "B."
-
 List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
 List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+List the frequency count of employee last names in descending order, showing how many employees share each last name.
 
-In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+Each task involves querying the SQL database to retrieve specific information and gain insights into the employee data.
+
+### Requirements:
+SQL database management system - PostgreSQL
+SQL database client - pgAdmin
+ERD tool for sketching Entity Relationship Diagrams - QuickDBD
+
+
